@@ -30,8 +30,7 @@ Ce projet est une application web développée avec Vue.js 3 utilisant la Compos
 Copier le code
 
 `
-git clone [https://github.com/nom_utilisateur/nom_du_projet.git](https://github.com/Ehya-Ag/gestion-bibliotheque-app.git)
-`
+git clone https://github.com/Ehya-Ag/gestion-bibliotheque-app.git
 
 **Accédez au répertoire du projet :** Copier le code
 
