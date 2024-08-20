@@ -8,16 +8,13 @@ import ListerLivres from './components/Livres/listerLivres.vue';
 </script>
 
 <template>
-  <div class="app">
-    <Navbar />
-    <h1>Gestion Bibliothèque</h1>
-    <!-- Commented out for now -->
-    <!-- <ListerLivres /> -->
-    <!-- <ListerMembres /> -->
-    <!-- <AjouterMembre /> -->
-    <!-- <ModifierMembre /> -->
-    <RouterView />
-  </div>
+  <Navbar/>
+  <h1>Gestion bibliothéque</h1>
+  <HelloWorld/>
+  <RouterView />
+  <!-- </div> -->
+
+ 
 </template>
 
 <style scoped>
