@@ -1,6 +1,7 @@
 <template>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+<body>
+      
     <div class="container">
       <!-- Formulaires -->
       <div class="form-container mb-3">
@@ -24,10 +25,10 @@
       />
   
       <!-- Table des livres -->
-      <table class="table table-bordered">
+      <table class="table table-hover table-bordered table-background">
         <thead>
           <tr>
-            <th scope="col">#</th>
+            <th scope="col">Identifiant</th>
             <th>Titre</th>
             <th>Auteur</th>
             <th>Genre</th>
@@ -57,6 +58,7 @@
         </tbody>
       </table>
     </div>
+</body>
   </template>
   
   <script setup>
@@ -108,6 +110,35 @@
   </script>
   
   <style scoped>
+    body {
+    height: 100vh;
+    background-color: #62a3e76b;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px;
+    font-family: Arial, sans-serif;
+  }
+  /* Styles de la table */
+  .table-background {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table thead th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    border-bottom: 2px solid #dee2e6;
+  }
+  
+  .table tbody tr {
+    transition: background-color 0.3s;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
   /* Container avec marges et ombre */
   .container {
     margin: 0 auto;
@@ -175,6 +206,4 @@
     font-size: 1.2rem;
   }
   </style>
-  
-  <!-- Assurez-vous d'ajouter Font Awesome dans votre projet -->
   

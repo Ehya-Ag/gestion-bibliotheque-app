@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import listerLivre from '../components/Livres/listerLivres.vue'; // Assurez-vous que ce chemin est correct
 import listerrMembre from '../components/Membres/listerMembres.vue'; // Chemin vers listerrMembre
 import listerPrets from '../components/Prets/listerPrets.vue'; // Chemin vers listerPrets
+import ajouterPret from '../components/Prets/ajouterPret.vue'; // Chemin vers listerPrets
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
     path: '/prets',
     name: 'prets',
     component: listerPrets, // Composant pour la lister des prêts
+  },
+  {
+    path: '/prets',
+    name: 'pret',
+    component: ajouterPret, // Composant pour la lister des prêts
   }
 ];
 
