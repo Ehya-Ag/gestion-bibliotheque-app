@@ -1,13 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './components/navbar.vue';
-import ListerMembres from './components/Membres/listerMembres.vue';
-import AjouterMembre from './components/Membres/ajouterMembre.vue';
-import ModifierMembre from './components/Membres/modifierMembre.vue';
-import ListerLivres from './components/Livres/listerLivres.vue';
 </script>
 
 <template>
+<<<<<<< HEAD
   <Navbar/>
   <h1>Gestion bibliothéque</h1>
   <HelloWorld/>
@@ -15,6 +12,13 @@ import ListerLivres from './components/Livres/listerLivres.vue';
   <!-- </div> -->
 
  
+=======
+  <div class="app">
+    <Navbar />
+    <h1>Gestion Bibliothèque</h1>
+    <RouterView />
+  </div>
+>>>>>>> 0a6f22e (Ajout de la page d'accueil)
 </template>
 
 <style scoped>

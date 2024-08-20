@@ -1,9 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
-import listerLivre from '../components/Livres/listerLivres.vue'; // Assurez-vous que ce chemin est correct
-import listerrMembre from '../components/Membres/listerMembres.vue'; // Chemin vers listerrMembre
-import listerPrets from '../components/Prets/listerPrets.vue'; // Chemin vers listerPrets
-import ajouterPret from '../components/Prets/ajouterPret.vue'; // Chemin vers listerPrets
+import listerLivre from '../components/Livres/listerLivres.vue'; 
+import listerrMembre from '../components/Membres/listerMembres.vue'; 
+import listerPrets from '../components/Prets/listerPrets.vue'; 
 
 const routes = [
   {
@@ -14,7 +13,7 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    component: () => import('../views/AboutView.vue'), // Chargement dynamique
+    component: () => import('../views/AboutView.vue'),
   },
   {
     path: '/livres',
@@ -24,17 +23,17 @@ const routes = [
   {
     path: '/membres',
     name: 'membres',
-    component: listerrMembre, // Composant pour la lister des membres
+    component: listerrMembre, 
   },
   {
     path: '/prets',
     name: 'prets',
-    component: listerPrets, // Composant pour la lister des prêts
+    component: listerPrets, 
   },
   {
     path: '/prets',
     name: 'pret',
-    component: ajouterPret, // Composant pour la lister des prêts
+    component: ajouterPret, 
   }
 ];
 
