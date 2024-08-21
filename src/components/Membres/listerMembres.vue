@@ -154,7 +154,9 @@
   <style scoped>
       body {
     height: 100vh;
-    background-color: #62a3e76b;
+    background-image: url(../../assets/images/fond.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
     padding: 10px;
     margin: 100px;

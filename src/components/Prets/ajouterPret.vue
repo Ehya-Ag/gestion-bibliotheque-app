@@ -46,18 +46,18 @@
   import { useRouter } from 'vue-router';
   
   // Exemple de livres et membres
-//   const livres = ref([
-//     { id: '1', nom: 'Afrique qui se lève ' },
-//     { id: '2', nom: 'Pére pauvre, pére riche' },
-//     { id: '3', nom: 'Les misérables' }
-//   ]);
+  const livres = ref([
+    { id: '1', nom: 'Afrique qui se lève ' },
+    { id: '2', nom: 'Pére pauvre, pére riche' },
+    { id: '3', nom: 'Les misérables' }
+  ]);
   
-//   const membres = ref([
-//     { id: '1', nom: 'Ehya Ag Mohamed' },
-//     { id: '2', nom: 'Ousmane ly' },
-//     { id: '3', nom: 'Mamadou ba' },
-//     { id: '4', nom: 'Aichatou taher' }
-//   ]);
+  const membres = ref([
+    { id: '1', nom: 'Ehya Ag Mohamed' },
+    { id: '2', nom: 'Ousmane ly' },
+    { id: '3', nom: 'Mamadou ba' },
+    { id: '4', nom: 'Aichatou taher' }
+  ]);
   
   const form = ref({
     nomLivre: '',

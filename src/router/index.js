@@ -30,11 +30,11 @@ const routes = [
     name: 'prets',
     component: listerPrets, 
   },
-  {
-    path: '/prets',
-    name: 'pret',
-    component: ajouterPret, 
-  }
+  // {
+  //   path: '/prets',
+  //   name: 'pret',
+  //   component: ajouterPret, 
+  // }
 ];
 
 const router = createRouter({

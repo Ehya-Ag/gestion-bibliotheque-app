@@ -186,8 +186,10 @@
   <style scoped>
   /* Fond du body */
   body {
+    background-image: url(../../assets/images/fond.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
-    background-color: #62a3e76b;
     border-radius: 10px;
     padding: 10px;
     margin: 100px;
@@ -196,6 +198,7 @@
   
   /* Container avec marges et ombre */
   .container {
+    
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 1rem;
