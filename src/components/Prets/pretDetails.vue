@@ -1,4 +1,3 @@
-<!-- PretDetails.vue -->
 <template>
     <div v-if="isVisible" class="details-overlay">
       <div class="details-modal">
@@ -14,8 +13,7 @@
   
   <script setup>
   import { defineProps, defineEmits } from 'vue';
-  import { ref } from 'vue';
-  
+  import { ref } from 'vue'; 
   // Props
   const props = defineProps({
     pret: {
@@ -43,7 +41,6 @@
     emit('onClose');
   };
   
-  // Methods to get the name of the book and member
   const getLivreName = (id) => {
     const livre = props.livres.find(l => l.id === id);
     return livre ? livre.nom : 'Inconnu';

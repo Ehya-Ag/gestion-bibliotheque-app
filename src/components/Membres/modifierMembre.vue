@@ -38,7 +38,6 @@
   });
   
   const updateMember = () => {
-    // Logique pour modifier les informations du membre
     console.log('Membre modifié:', member.value);
   };
   </script>

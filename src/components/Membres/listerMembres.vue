@@ -162,21 +162,16 @@
     margin: 100px;
     font-family: Arial, sans-serif;
   }
-  /* Container avec marges */
   .container {
     max-width: 1200px;
     margin: auto;
     padding: 0 1rem;
   }
-  
-  /* Styles de la carte */
   .card-background {
     background-color: #f8f9fa;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
-  /* Styles de la table */
   .table-background {
     background-color: #ffffff;
     border-radius: 0.5rem;
@@ -192,8 +187,6 @@
   .table tbody tr:hover {
     background-color: #f1f1f1;
   }
-  
-  /* Styles des boutons */
   .btn-sm {
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
@@ -208,7 +201,7 @@
   }
   
   .btn-info:hover {
-    background-color: #0056b3; /* Bleu plus foncé pour le survol */
+    background-color: #0056b3; 
   }
   
   .btn-warning {
@@ -216,7 +209,8 @@
   }
   
   .btn-warning:hover {
-    background-color: #e0a800; /* Jaune plus foncé pour le survol */
+    background-color: #e0a800; 
+    
   }
   
   .btn-danger {
@@ -224,7 +218,8 @@
   }
   
   .btn-danger:hover {
-    background-color: #c82333; /* Rouge plus foncé pour le survol */
+    background-color: #c82333; 
+    
   }
   
   .btn-secondary {
@@ -232,7 +227,7 @@
   }
   
   .btn-secondary:hover {
-    background-color: #5a6268; /* Gris plus foncé pour le survol */
+    background-color: #5a6268; 
   }
   
   .text-center {

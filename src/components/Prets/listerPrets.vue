@@ -184,9 +184,8 @@
   </script>
   
   <style scoped>
-  /* Fond du body */
-  body {
-    background-image: url(../../assets/images/fond.avif);
+  body{
+  background-image: url(../../assets/images/fond.avif); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -195,24 +194,19 @@
     margin: 100px;
     font-family: Arial, sans-serif;
   }
-  
-  /* Container avec marges et ombre */
+
   .container {
     
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 1rem;
   }
-  
-  /* Formulaires avec fond gris, ombre et padding */
   .form-container {
     background-color: #ffffff;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
-  /* Effet de survol bleu pour les champs de saisie */
   input[type="text"], input[type="date"], select {
     border: 1px solid #ccc;
     padding: 0.5rem;
@@ -221,10 +215,8 @@
   }
   
   input[type="text"]:hover, input[type="date"]:hover, select:hover {
-    border-color: #007bff; /* Bleu pour le survol */
-  }
-  
-  /* Styles de la table */
+    border-color: #007bff;
+}
   .table-background {
     background-color: #ffffff;
     border-radius: 8px;
@@ -236,7 +228,6 @@
     font-weight: bold;
   }
   
-  /* Style des boutons */
   .btn-primary, .btn-info, .btn-warning, .btn-danger {
     border: none;
     color: white;
@@ -251,7 +242,7 @@
   }
   
   .btn-primary:hover {
-    background-color: #0056b3; /* Bleu plus foncé pour le survol */
+    background-color: #0056b3; 
   }
   
   .btn-info {
@@ -259,16 +250,16 @@
   }
   
   .btn-info:hover {
-    background-color: #138496; /* Bleu plus foncé pour le survol */
+    background-color: #138496; 
   }
   
   .btn-warning {
     background-color: #ffc107;
-    color: #212529; /* Texte sombre pour le bouton avertissement */
+    color: #212529; 
   }
   
   .btn-warning:hover {
-    background-color: #e0a800; /* Jaune plus foncé pour le survol */
+    background-color: #e0a800; 
   }
   
   .btn-danger {
@@ -276,10 +267,11 @@
   }
   
   .btn-danger:hover {
-    background-color: #c82333; /* Rouge plus foncé pour le survol */
+    background-color: #c82333; 
   }
   
-  /* Styles pour les icônes */
+  
+  
   .icon {
     font-size: 1.2rem;
   }
